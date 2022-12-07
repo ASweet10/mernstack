@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Roboto'f;
+  background: bisque;
+}
+
+header{
+  background: white;
+}
+
+header .container{
+  max-width: 1400 px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center; /*Align content vertically*/
+  justify-content: space-between; /*Add space between elements*/
+}
+
+header a{
+  color: black;
+  text-decoration: none;
+}
+.pages {
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
