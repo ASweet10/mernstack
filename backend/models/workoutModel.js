@@ -4,18 +4,10 @@ const Schema = mongoose.Schema
 
 // Schema defines document structure
 const workoutSchema = new Schema ({
-    title : {
-        type: String,
-        required: true
-    },
-    reps: {
-        type: Number,
-        required: true
-    },
-    weight: {
-        type: Number,
-        required: true
-    }
+    title : { type: String, required: true },
+    weight: { type: Number, required: true },
+    reps: { type: Number, required: true }
+
 }, {timestamps: true})
 
 // Model applies schema, then use model to interact with collection
