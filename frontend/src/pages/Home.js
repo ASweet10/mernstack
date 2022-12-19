@@ -8,6 +8,7 @@ import WorkoutForm from '../components/WorkoutForm'
 const Home = () => {
     const { workouts, dispatch } = useWorkoutsContext()
 
+    //UseEffect runs once when component renders
     useEffect(() => {
         const fetchWorkouts = async () => {
             //Fetch workout data & store in response
